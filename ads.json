@@ -1,0 +1,35 @@
+{
+  "provider": "Admob",
+  "tv_provider": "unity", 
+  
+
+  "game_id": "5916282",
+  "interstitial_ad_id": "Interstitial_Android",
+  "rewarded_ad_id": "asd",
+  "banner_ad_id": "Banner_Android",
+  "native_ad_id": "Native_Android",
+
+
+  "yandex_interstitial_ad_id": "R-M-20002210-2",
+  "yandex_rewarded_ad_id": "R-M-XXXXX-YY",
+  "yandex_banner_ad_id": "R-M-20002210-1",
+  "yandex_native_ad_id": "R-M-XXXXX-YY",
+
+
+  "admob_app_id": "ca-app-pub-7979163111895783~8476050459",
+  "admob_interstitial_ad_id": "ca-app-pub-7979163111895783/4836841310",
+  "admob_rewarded_ad_id": "",
+  "admob_banner_ad_id": "ca-app-pub-3940256099942544/6300978111",
+  "admob_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
+
+
+  "mandatory_rewarded_ad": true,
+  "rewarded_ad_cooldown_hours": 24,
+  "clicks_for_interstitial": 7,
+  "enable_ads": true,
+  "enable_interstitial": true,
+  "enable_rewarded": true,
+  "enable_banner": false,
+  "enable_native": false,
+  "test_mode": false
+}
