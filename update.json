@@ -1,0 +1,19 @@
+{
+  "version_code": 1,
+  "version_name": "1.0",
+  "force_update": false,
+  "update_message": "Yeni sürüm mevcut",
+  "download_url": "https://.../thytvbox.apk",
+  "release_notes": "• Yeni özellikler\n• Hata düzeltmeleri",
+  "min_supported_version": 1,
+
+  "android_tv": {
+    "version_code": 2
+    "version_name": "2.0",
+    "download_url": "https://github.com/mediaagentapp/thytv/raw/refs/heads/main/thytvbox.apk"
+  },
+
+  "tv_box": {
+    "download_url": "https://github.com/mediaagentapp/thytv/raw/refs/heads/main/thytvbox.apk"
+  }
+}
