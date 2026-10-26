@@ -1,0 +1,105 @@
+{
+  "repo": "premiertvapp/a",
+  "branch": "main",
+  "version": 1,
+  "baseUrl": "https://github.com/premiertvapp/a/raw/refs/heads/main/",
+
+  "config": {
+    "ads":         "https://github.com/premiertvapp/a/raw/refs/heads/main/ads.json",
+    "sosyalmedia": "https://github.com/premiertvapp/a/raw/refs/heads/main/sosyalmedia.json",
+    "update":      "https://github.com/premiertvapp/a/raw/refs/heads/main/update.json"
+  },
+
+  "plugins": [
+    {
+      "id": "sprr",
+      "name": "Spor TV",
+      "file": "sprr.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/sprr.js",
+      "type": "live_sport",
+      "enabled": true,
+      "sha": "822a3ed0912bf064ecf091c082e79635f54b5c96",
+      "description": "PapazSports + CanliKolik birlesik kanal listesi"
+    },
+    {
+      "id": "allthemat",
+      "name": "Mac Eklentisi",
+      "file": "allthemat.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/allthemat.js",
+      "type": "live_match",
+      "enabled": true,
+      "sha": "bfa274d12eb7a6b4ebfdba716e737a1008aff001",
+      "description": "beyazelma78.com + CanliTribun + Slotin TV birlesik mac listesi"
+    },
+    {
+      "id": "selive",
+      "name": "Canli TV",
+      "file": "selive.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/selive.js",
+      "type": "live_tv",
+      "enabled": true,
+      "sha": "cddeeb2bf33b154a2ec127ec072322b5c68786f8",
+      "description": "ecanlitvizle.live canli TV kanallari"
+    },
+    {
+      "id": "stab",
+      "name": "Tabii TV",
+      "file": "stab.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/stab.js",
+      "type": "live_tv",
+      "enabled": true,
+      "sha": "0a41e4ae381ad27317f977801a4ab7585664e51d",
+      "description": "tabii.com canli yayinlar"
+    },
+    {
+      "id": "mfull",
+      "name": "FullHDFilm",
+      "file": "mfull.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/mfull.js",
+      "type": "movie",
+      "enabled": true,
+      "sha": "9f6f90321587a7018eb10f1385861ba30f87982b",
+      "description": "fullhdfilmizlesene.now film kaynagi"
+    },
+    {
+      "id": "msetf",
+      "name": "SetFilmIzle",
+      "file": "msetf.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/msetf.js",
+      "type": "movie_series",
+      "enabled": true,
+      "sha": "77cbf5880f0368e0596acc6b1f76b8d33c5a2d3a",
+      "description": "setfilmizle.ltd film + dizi + arama"
+    },
+    {
+      "id": "smakine",
+      "name": "FilmMakinesi",
+      "file": "smakine.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/smakine.js",
+      "type": "movie",
+      "enabled": true,
+      "sha": "569d2d49c050358792e83c2b3116305fcbab1c86",
+      "description": "filmmakinesi.to film kaynagi"
+    },
+    {
+      "id": "sdp",
+      "name": "DDiziMag",
+      "file": "sdp.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/sdp.js",
+      "type": "series",
+      "enabled": true,
+      "sha": "f9fd6f38347323cec3dd1371990e4eaf3e0a21a9",
+      "description": "ddizimag.com dizi kaynagi"
+    },
+    {
+      "id": "syaban",
+      "name": "YabanciDizi",
+      "file": "syaban.js",
+      "url": "https://github.com/premiertvapp/a/raw/refs/heads/main/syaban.js",
+      "type": "series",
+      "enabled": true,
+      "sha": "f8bf3600a8a3dabaf510d7f3d96a64672b01f66d",
+      "description": "yabancidizi.news dizi kaynagi"
+    }
+  ]
+}
